@@ -9,16 +9,14 @@ gem 'rails', '~> 6.1.3'
 # gem 'sqlite3', '~> 1.4'
 # Use postgresql as the database
 gem 'pg', '~> 0.18.4'
-
-# bootstrap sass for easier css 
-gem 'bootstrap-sass', '~> 3.4.1'
-
-# devise user auth related auths
-gem 'devise'
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
+# devise user auth related auths
+gem 'devise'
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
+# bootstrap sass for easier css 
+gem 'bootstrap-sass', '~> 3.4.1'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 5.0'
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks

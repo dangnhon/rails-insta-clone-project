@@ -9,20 +9,40 @@ gem 'rails', '~> 6.1.3'
 # gem 'sqlite3', '~> 1.4'
 # Use postgresql as the database
 gem 'pg', '~> 1.1'
+
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
+
 # devise user auth related auths
 gem 'devise'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '>= 6'
+
 # bootstrap sass for easier css 
 gem 'bootstrap-sass', '~> 3.4.1'
+
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker', '~> 5.0'
+
 # Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
 gem 'turbolinks', '~> 5'
+
+# File handling and uploads for amazon server
+gem 'carrierwave', '~> 2.0'
+
+# access to S3 buckets
+gem 'fog', '~> 1.37.0'
+
+# Resizing images
+gem 'mini_magick'
+
+#local ENV variables
+gem 'figaro'
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
+
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password

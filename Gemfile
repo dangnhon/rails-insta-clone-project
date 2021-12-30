@@ -10,6 +10,9 @@ gem 'rails', '~> 6.1.3'
 # Use postgresql as the database
 gem 'pg', '~> 1.1'
 
+# using jquery with rails
+gem 'jquery-rails'
+
 # Use Puma as the app server
 gem 'puma', '~> 5.0'
 

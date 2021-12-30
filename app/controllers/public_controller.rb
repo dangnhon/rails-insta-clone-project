@@ -1,6 +1,6 @@
 class PublicController < ApplicationController
 
     def homepage
-        #this is the homepage or landingpage action
+        #this is the homepage or landing page action
     end
 end

@@ -3,4 +3,6 @@ Rails.application.routes.draw do
 
   get "/dashboard" => "accounts#index"
   root to: "public#homepage"
+
+  
 end
